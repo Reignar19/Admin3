@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
@@ -42,8 +42,6 @@ namespace Admin3
 
         private void Services_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'trimTimeDataSet1.SERVICES' table. You can move, or remove it, as needed.
-            this.sERVICESTableAdapter.Fill(this.trimTimeDataSet1.SERVICES);
             // Load the Services table data when the form loads
             LoadServicesData();
         }
@@ -83,26 +81,6 @@ namespace Admin3
                 // Display an error message if something goes wrong
                 MessageBox.Show("An error occurred while loading the Services data: " + ex.Message);
             }
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

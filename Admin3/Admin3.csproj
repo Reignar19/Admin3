@@ -135,6 +135,26 @@
     <Compile Include="Services.Designer.cs">
       <DependentUpon>Services.cs</DependentUpon>
     </Compile>
+    <Compile Include="TrimTimeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrimTimeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrimTimeDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrimTimeDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrimTimeDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrimTimeDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TrimTimeDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrimTimeDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Users.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +195,50 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TrimTimeDataSet.xsc">
+      <DependentUpon>TrimTimeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrimTimeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrimTimeDataSet.xss">
+      <DependentUpon>TrimTimeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet1.xsc">
+      <DependentUpon>TrimTimeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrimTimeDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrimTimeDataSet1.xss">
+      <DependentUpon>TrimTimeDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet2.xsc">
+      <DependentUpon>TrimTimeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrimTimeDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrimTimeDataSet2.xss">
+      <DependentUpon>TrimTimeDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet3.xsc">
+      <DependentUpon>TrimTimeDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TrimTimeDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrimTimeDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TrimTimeDataSet3.xss">
+      <DependentUpon>TrimTimeDataSet3.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
